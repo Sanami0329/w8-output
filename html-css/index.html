@@ -52,20 +52,22 @@
     <div class="section login">
         <form class=form action="">
             <h2 class="heading-signin">Sign in to your account</h2>
-            <div class="box">
+            <div class="box email">
                 <label for="email">Your email</label>
-                <input type="email" value="name@company.com">
+                <input type="email" id="email" placeholder="name@company.com">
             </div>
-            <div class="box">
+            <div class="box password">
                 <label for="password">Password</label>
-                <input type="password" value="********" minlength="8" maxlength="30">
+                <input type="password" id="password" placeholder="********">
             </div>
-            <button class="signin-button">Sign in</button>
+            <button id="button">Sign in</button>
             <p>
-                don't have an account yet?
+                Don't have an account yet?
                 <a href="">Sign up</a>
             </p>
         </form>
     </div>
+    
+    <script src="../database/database.js"></script>
 </body>
 </html>
