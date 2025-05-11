@@ -1,6 +1,4 @@
 
-(() => {
-
     const $button = document.getElementById('button');
     const $email = document.getElementById('email');
     const $password = document.getElementById('password');
@@ -23,5 +21,3 @@
         const get_password = localStorage.getItem('password_key');
         $password.value = get_password;
     });
-
-})();
