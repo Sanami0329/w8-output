@@ -4,42 +4,8 @@ body {
     font-size: 16px;
 }
 .section {
-    margin: 30px auto;
+    margin: 50px auto;
     width: 650px;
-}
-
-
-/* items */
-h2 {
-    margin: 20px 10px 10px;
-}
-.container {
-   display: flex;
-   flex-wrap: wrap;
-   padding: 0;
-}
-.item {
-    height: 40px;
-    border: solid 1px #555;
-    border-radius: 5%;
-    box-sizing: border-box;
-    background-color: rgb(140, 190, 240);
-    color: #555;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80px;
-    margin: 10px;
-}
-
-.first.container {
-    width: 400px;
-}
-.second.container {
-    width: 200px;
-}
-.third.container {
-    width: 600px
 }
 
 
