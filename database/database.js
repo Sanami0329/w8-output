@@ -7,11 +7,9 @@
 
         const save_email = $email.value;
         localStorage.setItem('email_key', save_email);
-        const get_email = localStorage.getItem('email_key');
 
         const save_password = $password.value;
         localStorage.setItem('password_key', save_password);
-        const get_password = localStorage.getItem('password_key');
     });
 
     document.addEventListener('DOMContentLoaded', () => {
